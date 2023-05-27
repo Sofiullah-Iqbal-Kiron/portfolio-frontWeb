@@ -1,0 +1,4 @@
+all public assets are accessible from host url directly,
+as example: docker.svg is accessible from <HOST>/docker.svg
+
+More here: https://www.freecodecamp.org/news/react-background-image-tutorial-how-to-set-backgroundimage-with-inline-css-style/

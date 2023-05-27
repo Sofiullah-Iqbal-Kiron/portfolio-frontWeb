@@ -8,7 +8,7 @@ import {faCircleArrowUp} from "@fortawesome/free-solid-svg-icons";
 import {faFacebook, faYoutube, faTwitter, faInstagram, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 
-import {useEffect, useState} from "react";
+import {useState} from "react";
 
 export function Footer() {
     const [currentYear, setCurrentYear] = useState(new Date().getFullYear());

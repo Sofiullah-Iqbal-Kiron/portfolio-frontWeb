@@ -1,0 +1,10 @@
+.my-progress-bar {
+    --red: '#ff0055';
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: var(--red);
+}

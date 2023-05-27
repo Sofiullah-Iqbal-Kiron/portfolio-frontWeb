@@ -10,7 +10,7 @@ const more_about_me_styles = {
     paddingInline: "8%",
 }
 
-export function Header() {
+export function Hero() {
     const el = useRef(null);
 
     useEffect(() => {
@@ -22,7 +22,7 @@ export function Header() {
                     'Manim animator. ',
                     'UI/UX designer. ',
                     'React developer. ',
-                    'Django expert',
+                    'Django expert. ',
                     'Full Stack Web Programmer. ',
                 ],
                 startDelay: 1000,
@@ -43,9 +43,9 @@ export function Header() {
     return (
         <div id='header' className="text-left text-bg-primary text-wrap" style={{padding: "20%"}}>
             <motion.div
-                initial={{opacity: 0, scale: 0.1, rotate: 60}}
-                animate={{opacity: 1, scale: 1, rotate: 0}}
-                transition={{delay: 0.2, duration: 0.8, type: "spring"}}
+                initial={{x: '-100vw', opacity: 0}}
+                animate={{x: 0, opacity: 1}}
+                transition={{delay: 1, duration: 0.8, type: "spring", stiffness: 110}}
             >
                 <h1>
                     Hello, my name is <span className="text-bg-dark p-1">Sofiullah Iqbal Kiron</span>
